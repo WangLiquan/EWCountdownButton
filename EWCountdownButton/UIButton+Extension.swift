@@ -34,7 +34,6 @@ extension UIButton{
         codeTimer.schedule(deadline: .now(), repeating: .seconds(1))
         // 设定时间源的触发事件
         codeTimer.setEventHandler(handler: {
-            
             // 返回主线程处理一些事件，更新UI等等
             DispatchQueue.main.async {
                 // 每秒计时一次
