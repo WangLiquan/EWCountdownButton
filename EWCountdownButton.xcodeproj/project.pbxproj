@@ -14,6 +14,7 @@
 		84193E202255C8F20039C6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84193E1E2255C8F20039C6A6 /* LaunchScreen.storyboard */; };
 		84193E2B2255C8F20039C6A6 /* EWCountdownButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84193E2A2255C8F20039C6A6 /* EWCountdownButtonTests.swift */; };
 		84193E362255C8F20039C6A6 /* EWCountdownButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84193E352255C8F20039C6A6 /* EWCountdownButtonUITests.swift */; };
+		84193E442255C9490039C6A6 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84193E432255C9490039C6A6 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84193E312255C8F20039C6A6 /* EWCountdownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWCountdownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84193E352255C8F20039C6A6 /* EWCountdownButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWCountdownButtonUITests.swift; sourceTree = "<group>"; };
 		84193E372255C8F20039C6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84193E432255C9490039C6A6 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				84193E152255C8F10039C6A6 /* AppDelegate.swift */,
 				84193E172255C8F10039C6A6 /* ViewController.swift */,
+				84193E432255C9490039C6A6 /* UIButton+Extension.swift */,
 				84193E192255C8F10039C6A6 /* Main.storyboard */,
 				84193E1C2255C8F20039C6A6 /* Assets.xcassets */,
 				84193E1E2255C8F20039C6A6 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				84193E182255C8F10039C6A6 /* ViewController.swift in Sources */,
 				84193E162255C8F10039C6A6 /* AppDelegate.swift in Sources */,
+				84193E442255C9490039C6A6 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8V4DCL3BF;
 				INFOPLIST_FILE = EWCountdownButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8V4DCL3BF;
 				INFOPLIST_FILE = EWCountdownButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
